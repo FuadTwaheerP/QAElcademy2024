@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Dept Enforcement/Navigating to dept enforcement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Common/button_Start'))
+WebUI.click(findTestObject('Common/button_Finish'))
 
 WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 1 - Extract Required'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,23 +29,23 @@ WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 2 - Requesting partys c
 
 WebUI.click(findTestObject('Common/button_NextStep'))
 
-WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 3 - Select debt enforcement office'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 4 - Review Screen'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Common/button_NextStep'))
 
-WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 4 - Review Screen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 3 - Select debt enforcement office'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Common/button_Finish'))
+WebUI.click(findTestObject('Common/button_Start'))
 
 WebUI.click(findTestObject('Common/button_OkInPopup'))
 
 WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 5 - Delivery method'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Common/button_NextBtn'))
+WebUI.click(findTestObject('Common/button_NextStep'))
 
 WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 6 - Delivery details'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Common/button_NextBtn'))
+WebUI.click(findTestObject('Common/button_NextStep'))
 
 WebUI.callTestCase(findTestCase('Dept Enforcement/Screen 7 - Finish Screen'), [:], FailureHandling.STOP_ON_FAILURE)
 
