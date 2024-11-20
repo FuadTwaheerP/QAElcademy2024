@@ -35,3 +35,24 @@ WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys cont
 
 WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Email'), 'test@mail.mu')
 
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Street'), 'Baselstrasse')
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_HouseNumber'), '1')
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_AdditionalAddress'), 'Vivea Business Park')
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_POBox'), '1234')
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Postcode'), '4144')
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Place'), 'Arlesheim')
+
+WebUI.clearText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Place'))
+
+WebUI.setText(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Place'), 'Arlesheim')
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject('Dept enforcement/Screen 2 - Requesting partys contact details/input_Place'), Keys.chord(Keys.DOWN, 
+        Keys.ENTER))
+
