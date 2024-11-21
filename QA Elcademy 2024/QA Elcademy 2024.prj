@@ -4,9 +4,12 @@
    <name>QA Elcademy 2024</name>
    <tag></tag>
    <UUID>0980cb68-e671-47ea-a590-ef456ae36e16</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\fuad_\OneDrive\Documents\QAElcademy2024\QA Elcademy 2024\QA Elcademy 2024.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\peef\Documents\QAElcademy2024\QA Elcademy 2024\QA Elcademy 2024.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
