@@ -4,5 +4,6 @@
    <name>Main process</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0e95d2f1-9739-42b4-b655-f9ef51755d58</testCaseGuid>
 </TestCaseEntity>

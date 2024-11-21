@@ -17,7 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Dept Enforcement/Navigating to dept enforcement'), [:], FailureHandling.STOP_ON_FAILURE)
+'Navigating to Easygov website'
+WebUI.openBrowser('https://www.easygov.swiss/')
+
+WebUI.maximizeWindow()
+
+'Accept cookies'
+WebUI.click(findTestObject('Common/button_AcceptCookies'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Dept enforcement/Navigating to dept enforcement/button_HamburgerMenu'))
+
+WebUI.click(findTestObject('Dept enforcement/Navigating to dept enforcement/button_DeptEnforcement'))
+
+WebUI.click(findTestObject('Dept enforcement/Navigating to dept enforcement/button_DeptEnforcementRegister'))
 
 WebUI.click(findTestObject('Common/button_Start'))
 
