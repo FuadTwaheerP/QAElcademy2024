@@ -6,14 +6,14 @@
    <elementGuidId>0da64020-c221-43c0-99d7-76cb29a54a57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;panel&quot;]/div/portal-sidebar/div[8]/div/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;panel&quot;]/div/portal-sidebar/div[8]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
